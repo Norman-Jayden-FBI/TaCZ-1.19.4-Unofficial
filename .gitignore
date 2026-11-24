@@ -1,0 +1,36 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+.gradle-user-home
+
+# local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# other
+eclipse
+run
+test
+logs
+.luarc.json
+
+# Files from Forge MDK
+forge*changelog.txt
